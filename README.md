@@ -4,46 +4,25 @@
 This directory contains the files you will need for the CS:APP Shell
 Lab.
 
-tsh.c
-        This is the file containing the main evaluation logic.
+- tsh.c — This is the file containing the main evaluation logic.
 	
-tsh_helper.{c,h}
-	Implements some of the utility routines you will need
+- tsh_helper.{c,h} — Implements some of the utility routines you will need
 
-csapp.{c,h}
-	Utility files used in CS:APP textbook.  These included wrapped
-	versions of a number of system functions, plus the SIO safe I/O library
+- csapp.{c,h} — Utility files used in CS:APP textbook.  These included wrapped versions of a number of system functions, plus the SIO safe I/O library.
 
-tshref*
-	This is the reference shell executable
+- tshref* — This is the reference shell executable
 
-sdriver.c
-        The shell driver source program
+- sdriver.c — The shell driver source program
 
-runtrace.c
-	The trace interpreter source program
+- runtrace.c — The trace interpreter source program
 
-trace{00-24}.txt
-	Trace files used by the driver
+- trace{00-24}.txt — Trace files used by the driver
 
-config.h
-        Header file for sdriver.c
+- config.h — Header file for sdriver.c
 
-mycat.c
-myenv.c
-myintp.c
-myints.c
-mykill.pl
-myspin1.c
-myspin2.c
-mysplit.c
-mysplitp.c
-mytstpp.c
-mytstps.c
-	These are helper programs that are referenced in the trace files.
+- my*.c — These are helper programs that are referenced in the trace files.
 
-Makefile:
-        This is the makefile that builds the driver program.
+- Makefile — This is the makefile that builds the driver program.
 
 
 
